@@ -1,0 +1,372 @@
+.task-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  
+  
+}
+
+.task-card h3 {
+  margin: 0;
+  color: #333;
+}
+
+.task-card p {
+  margin: 5px 0;
+}
+
+.task-buttons {
+  margin-top: 10px;
+}
+
+.task-buttons button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+}
+
+.edit-btn {
+  background-color: gray;
+  color: white;
+}
+
+.delete-btn {
+  background-color:#007bff;
+  color: white;
+}
+/* Task Form Container */
+.task-form {
+  background: #ffffff;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 350px;
+}
+
+/* Form Title */
+.task-form h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Inputs */
+.task-input {
+  width: 90%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Textarea height */
+textarea.task-input {
+  height: 70px;
+  resize: vertical;
+}
+
+/* Button */
+.task-btn {
+  margin-top: 10px;
+  padding: 8px 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-btn:hover {
+  background-color: #0056b3;
+}
+/* Filter Bar Container */
+.filter-bar {
+  margin: 15px 0;
+  
+}
+
+/* Filter Buttons */
+.filter-btn {
+  padding: 8px 14px;
+  margin-right: 0px;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  display: grid;
+  
+}
+
+/* Hover Effect */
+.filter-btn:hover {
+  background-color: #007bff;
+  color: white;
+}
+/* Dashboard container */
+.dashboard {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Dashboard title */
+.dashboard-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Search bar */
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Task list title */
+.task-list-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align:center ;
+}
+.app-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #333;
+}
+/* Center the task form */
+.task-form {
+  width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* Inputs */
+.task-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Button */
+.task-btn {
+  padding: 10px 16px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  
+}
+
+.task-btn:hover {
+  background-color: #1557b0;
+}
+/* Page background */
+body {
+  font-family: Arial, sans-serif;
+  background-color:whitesmoke;
+  padding: 0;
+}
+
+/* Dashboard container */
+.dashboard {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  
+}
+
+/* Dashboard title */
+.dashboard-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Search bar */
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Task list title */
+.task-list-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Task form card */
+.task-form {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* Inputs */
+.task-input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Button */
+.task-btn {
+  padding: 10px 16px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.task-btn:hover {
+  background-color: #1557b0;
+}
+
+/* Filter buttons */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.filter-btn {
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Task cards */
+.task-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+/* Responsive for tablets */
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 15px;
+  }
+
+  .task-form {
+    max-width: 100%;
+  }
+}
+
+/* Responsive for mobile */
+@media (max-width: 400px) {
+  .dashboard-title {
+    font-size: 22px;
+  }
+
+  .search-bar {
+    font-size: 13px;
+  }
+
+  .filter-bar {
+    flex-direction: column;
+  }
+
+  .filter-btn {
+    width: 100%;
+  }
+}
+/* Dashboard container */
+.dashboard {
+  max-width: 700px;
+  margin: auto;
+  padding: 10px;
+}
+
+/* Main title */
+.app-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Dashboard title */
+.dashboard-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Search bar */
+.search-bar {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/* Task form */
+.task-form {
+  max-width: 450px;
+  margin: 10px auto;
+  padding: 15px;
+}
+
+/* Inputs */
+.task-input {
+  padding: 8px;
+  margin: 6px 0;
+}
+
+/* Button */
+.task-btn {
+  padding: 8px 12px;
+}
+.filter{
+    display: flex;
+    gap: 10px;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.dashboard{
+    background-color:white;
+    border-radius: 8px;
+    padding: 20px;
+}
+.app-title{
+    color: black;
+    font-size: 28px;
+}
+
+
+.inputtt{
+    width: 95%;
+}
